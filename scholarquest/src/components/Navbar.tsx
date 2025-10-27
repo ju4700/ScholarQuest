@@ -24,7 +24,7 @@ function Navbar() {
                         <li><a>Item 3</a></li>
                         </ul>
                     </div>
-                    <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
+                    <a className="btn">Button</a>
                 </div>
             </div>
         </div>
