@@ -1,0 +1,1 @@
+"ScholarQuest BD" – an interactive scholarship discovery and preparation tool specifically for Bangladeshi students seeking higher education abroad or locally. Users input their profile (e.g., CGPA, field like CS, financial needs) to get personalized scholarship matches, application tips, and mock interview simulators.
