@@ -4,8 +4,10 @@ import Hero from "./Hero";
 function Body() {
     return (
         <>
-            <Navbar />
-            <Hero />
+            <div className="flex flex-col h-screen overflow-hidden">
+                <Navbar />
+                <Hero />
+            </div>
         </>
     )
 }

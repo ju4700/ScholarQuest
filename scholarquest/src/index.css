@@ -1,8 +1,7 @@
 @import "tailwindcss";
 
-
 :root {
-  color-scheme: dark;
+  color-scheme: "dark";
   --color-base-100: oklch(14% 0 0);
   --color-base-200: oklch(20% 0 0);
   --color-base-300: oklch(26% 0 0);
@@ -24,11 +23,23 @@
   --color-error: oklch(64% 0.246 16.439);
   --color-error-content: oklch(96% 0.015 12.422);
   --radius-selector: 1rem;
-  --radius-field: 2rem;
+  --radius-field: 0.5rem;
   --radius-box: 1rem;
   --size-selector: 0.25rem;
   --size-field: 0.25rem;
   --border: 1px;
   --depth: 1;
   --noise: 1;
+}
+
+
+
+
+.body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: #f9fafb;
 }
