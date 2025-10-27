@@ -172,10 +172,10 @@ function Hero() {
     };
 
     return (
-        <div className="flex-1 flex flex-col w-full px-4">
-            <div className="max-w-[1400px] w-full mx-auto bg-base-200 rounded-[15px] border-1 border-gray-600 mt-2 mb-2 overflow-hidden flex-1 flex flex-col">
+        <div className="flex-1 flex flex-col w-full max-xl:px-2 ">
+            <div className="max-xl:max-w-[1200px] max-w-[1400px] w-full mx-auto bg-base-200 rounded-[15px] border-1 border-gray-600 mt-2 mb-2 xl:overflow-hidden flex-1 flex flex-col">
                 {!showResults ? (
-                    <div className="flex-1 flex items-center justify-center p-6">
+                    <div className="flex-1 flex items-center justify-center lg:p-6 max-xl:p-2 max-xl:pt-6 max-xl:pb-6">
                         <div className="w-full max-w-2xl">
                             <div className="text-center mb-10">
                                 <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl mb-6 border border-primary/30">

@@ -1,7 +1,7 @@
 function Navbar() {
     return (
-        <div className="flex justify-center">
-            <div className="max-w-[1400px] mx-auto rounded-br-[15px] rounded-bl-[15px] navbar bg-base-100 shadow-sm border-b-1 border-r-1 border-l-1 border-gray-600">
+        <div className="flex justify-center max-xl:px-2">
+            <div className="max-xl:max-w-[1200px] max-w-[1400px] mx-auto rounded-br-[15px] rounded-bl-[15px] navbar bg-base-100 shadow-sm border-b-1 border-r-1 border-l-1 border-gray-600">
                 <div className="navbar-start">
                     <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -14,7 +14,7 @@ function Navbar() {
                         <li><a>Contact</a></li>
                     </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">ScholarQuest</a>
+                    <a className="lg:btn lg:btn-ghost text-xl">ScholarQuest</a>
                 </div>
                 
                 <div className="navbar-end mr-1">
